@@ -1,0 +1,23 @@
+*******************************************************************************************************************
+* LPG.cpp is a simple example that shows how to use the provided classes including the ConstraintConsensus class. *
+*******************************************************************************************************************
+
+Instructions on how to install and run LPG:
+--------------------------------------------
+
+0) Everything below assumes you are running Linux. I have tested specifically on Fedora. The provided code will not work on Windows! 
+
+1) Get solvers.tar by running the getASL.sh script provided: './getASL.sh'. 
+This script gets the required ASL code found here: ftp://www.netlib.org/ampl/solvers.tar and unpacks it in the current directory. If successful, a new directory named solvers should appear.
+
+2) cd to the newly created solvers directory: 'cd solvers'. Use makefile.u to build the code: 'mv makefile.u makefile', 'make'.
+
+3) cd to the LPG/src directory: 'cd ../LPG/src'.
+
+4) Build LPG by typing: 'make'.
+
+5) Run the program on the branin0 model that is provided: '../bin/LPG ../mod/branin0'.
+
+
+
+
