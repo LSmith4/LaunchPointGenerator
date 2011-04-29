@@ -1,0 +1,7 @@
+Code for global optimization of continuous nonlinear programs.
+
+Constraint Consensus concentrates random start points. Single linkage clustering identifies the most promising launch points for a local solver. The critical distance for clustering is found with a routine that analyzes the inter-point distance frequency distribution of the concentrated points.
+
+The suggested launch points are output to /tmp/launchPoints.data.
+
+The code is dependent on the Ampl Solver Library (ASL).  
